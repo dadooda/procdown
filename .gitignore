@@ -1,0 +1,20 @@
+
+# Project-specific.
+/deno.lock
+/README-pre.md
+
+# Old etc.
+*.old*
+*.orig
+/*.patch
+*.ref*
+
+# Nonpersistent stuff.
+TODO.md
+
+# Shared VS Code settings.
+/.vscode/*
+!/.vscode/*.json
+
+# Custom VS Code settings.
+/*.code-workspace

@@ -1,0 +1,41 @@
+
+// Just in case, the comments are supported here.
+{
+  "deno.enable": true,
+
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": false,
+  "files.eol": "\n",
+
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "importSorter.importStringConfiguration.hasSemicolon": false,
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 110,
+  "importSorter.importStringConfiguration.quoteMark": "double",
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "importSorter.importStringConfiguration.trailingComma": "multiLine",
+  "importSorter.sortConfiguration.joinImportPaths": true,
+  "importSorter.sortConfiguration.removeUnusedImports": false,
+
+  // See https://prettier.io/docs/en/options.html.
+  // See https://mattkenefick.github.io/format-parser/ -- an interactive playground!
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+
+  "[markdown]": {
+    "editor.renderWhitespace": "trailing",
+    "files.trimTrailingWhitespace": false,
+  },
+
+  "[typescript]": {
+    "togglequotes.chars": [
+      "\"",
+      "'",
+      "`"
+    ]
+  },
+}
