@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "all": "deno task jackEN > jackEN.md && ROUGH=! deno task jackEN > jackEN-rough.md && deno task jackRU > jackRU.md && ROUGH=! deno task jackRU > jackRU-rough.md && deno task readme > README.md",
+
+    "jackEN": "deno run --allow-env --allow-read jackEN.ts",
+    "jackRU": "deno run --allow-env --allow-read jackRU.ts",
+    "readme": "deno run --allow-env --allow-read readme.ts",
+  }
+}
