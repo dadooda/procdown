@@ -25,8 +25,8 @@ Parts of our document are described in module `p.ts` as constants of type `Part`
 ```ts
 interface Part {
    title: string
-   anchor:string
-   core:string
+   anchor: string
+   core: string
 }
 ```
 
